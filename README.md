@@ -37,6 +37,7 @@ make clean
 ```bash
 
 ./zappy_ai -p port -n name -h machine
+
 #DESCRIPTION
   port is the port number
   name is the name of the team
