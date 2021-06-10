@@ -1,0 +1,50 @@
+Supposé ne rien faire
+yes | tr -d "\n" |nc 127.0.0.1 12346
+Utiliser select pour l'handling time
+
+Monitorer les clients en write() ca veut dire un write_buf par client, et select si != '\0'
+
+Faire le protocole pour Martin
+
+
+
+
+Gérer plusieurs commandes en un seul paquet
+Gérer une commande en plusieurs paquet
+
+
+
+Segfault:
+    move_forward(commands.c)
+    at: STAILQ_REMOVE(&zappy->board[y][x].players, client, client_s, next);
+#[Serveur]
+Easy One:
+    Parser argv correctement
+Main project:
+    Génération random des ressources
+    Remplir toutes les commandes
+Archi:
+    Avoir une documentation réseau ET gameplay (keynote!)
+    Avoir une bonne séparation entre gameplay et réseau
+Recoder la fonction de lecture:
+    Gérer les commandes envoyées en plusieurs packets
+    Gérer de multiples commandes envoyées en un seul packet
+    Gérer des inputs de taille arbitraire
+
+
+#[Client Graphique]
+Basique:
+    Afficher la map
+    Afficher les nombres totaux d'items
+    Pouvoir faire défiler la map
+    Possibilitée d'acceder aux détails d'une case/joueur
+Advanced:
+    Possibilitée de lock la vue d'un joueur
+    Possibilitée de filtrer les infos par équipes
+    Affichage visuel des Broadcasts
+
+
+
+Pile le bon nombre, ni plus ni moi s
+Les ressources sont consommés instant donc pas de risque dd vol
+Et quand tu est dans l'incarnation t'est stun le temps de l'incarnation

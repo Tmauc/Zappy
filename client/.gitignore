@@ -1,0 +1,6 @@
+*.o
+.vscode
+zappy_ai
+UDPCLIENT
+sauv.cpp
+vg*
